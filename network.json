@@ -1,0 +1,17 @@
+{
+  "mode": "ethernet",
+  "priority": "wifi_first",
+  "timeout": 20,
+  "wifi": {
+    "ssid": "",
+    "security": "closed",
+    "password": ""
+  },
+  "ethernet": {
+    "ip_mode": "static",
+    "ip": "192.168.1.36",
+    "netmask": "255.255.255.0",
+    "gateway": "192.168.1.1",
+    "dns": "8.8.8.8"
+  }
+}
